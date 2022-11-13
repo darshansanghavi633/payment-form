@@ -1,0 +1,20 @@
+*{
+    font-family: cursive;
+}
+body{
+    padding:  25px 25px;
+    font-size: medium;
+    border: 5px solid #2e2d2d;
+    background-color: rgba(213, 228, 228, 0.897);
+    padding-right: 50px;
+}
+input[type="name"],
+input[type="number"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+textarea{
+    width: 100%;
+    font-size: large;
+    padding: 12px;
+}

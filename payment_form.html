@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+</head>
+<link rel="stylesheet" href="payment.css">
+<body>
+    <form action="">
+        <h1> Payment form </h1>
+        <h2>Contact Information</h2>
+
+    <p>Name:<sup>*</sup> <input type="text" name="name" placeholder="Darshan Sanghavi" required></p>
+    <fieldset>
+        <legend>Gender</legend>
+        <p>
+             <input type="radio" name="gender" id="male" &npsb >Male
+             <input type="radio"  &npsb name="gender" id="female" >Female 
+             <input type="radio" name="gender" id="trans"  &npsb>Trans
+
+        </p>
+    </fieldset>
+    Address: <textarea name="address" id="address" cols="30" rows="5"></textarea>
+    <br>
+    Pincode: <input type="number" name="pincode" id="pincode">
+    <br>
+    Email: <input type="email" name="email" id="email">
+    <br>
+    Contact: <input type="number" name="contact" id="contact">
+    <br>
+    <hr>
+<p>
+    payment method: 
+    <select name="method" id="method" >
+        <option value="">--select the method of payment--</option>
+        <option value="gpay">Gpay</option>
+        <option value="debit">Debit</option>
+        <option value="credit">Credit</option>
+
+    </select>
+</p>
+<p> 
+    Card Number: <input type="number" name="number1" id="number1"> 
+    <br>   
+    Card Owners Name: <input type="text" name="number2" id="number2">    
+    <br>
+    Expire date: <input type="date" name="exp_date" id="exp_date">
+    <br>
+    CVV: <input type="password" name="pass" id="pass">
+    <br>
+    <input type="submit" value="Pay Now">
+</p>
+</form>
+</body>
+</html>
+
+
+
+
